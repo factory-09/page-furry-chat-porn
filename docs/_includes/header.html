@@ -24,11 +24,13 @@
 	<link rel="stylesheet" href="{{ style }}" />
 	{% endfor %}
 
-	<link rel="stylesheet" href="{{ "/assets/css/theme.css" | relative_url }}" />
+	<link rel="stylesheet" href="{{ "
+	/assets/css/theme.css" | relative_url }}" />
 	<!-- / styles -->
 
 	<!-- favicon -->
-	<link rel="icon" type="image/x-icon" href="{{ "/assets/img/favicon.ico" | relative_url }}" />
+	<link rel="icon" type="image/x-icon" href="{{ "
+	/assets/img/favicon.ico" | relative_url }}" />
 	<!-- / favicon -->
 </head>
 <body itemscope itemtype="http://schema.org/WebPage">
@@ -46,12 +48,16 @@
 		</div>
 		<div id="navMenu" class="navbar-menu">
 			<div class="navbar-start">
-				<a class="navbar-item" href="https://porn.furry.chat/male/" itemprop="url">
-					<span itemprop="name">Male</span>
-				</a>
-				<a class="navbar-item" href="https://porn.furry.chat/female/" itemprop="url">
-					<span itemprop="name">Female</span>
-				</a>
+				<div class="navbar-item">
+					<a title="Парни" class="button" href="https://porn.furry.chat/male/">
+						<span class="icon"><i class="fas fa-mars fa-lg"></i></span>
+					</a>
+				</div>
+				<div class="navbar-item">
+					<a title="Девушки" class="button" href="https://porn.furry.chat/female/">
+						<span class="icon"><i class="fas fa-venus fa-lg"></i></span>
+					</a>
+				</div>
 			</div>
 			<div class="navbar-end">
 				<div class="navbar-item">
