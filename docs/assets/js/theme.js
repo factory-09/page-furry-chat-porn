@@ -1,9 +1,25 @@
 'use strict';
 
 discord_getImages(
-	'#data-art',
+	'#data-porn',
 	'303327594793795588',
 	'435163913831710741',
+	'100',
+	'TlRNNE5qZzFPREF4TVRRME1qVTBORGMxLkR5NW9fQS5mbTlpdkxCYUt2aTlaZE5JRW9KUGtSQ0Q1V0k='
+);
+
+discord_getImages(
+	'#data-porn-male',
+	'303327594793795588',
+	'348588402272370698',
+	'100',
+	'TlRNNE5qZzFPREF4TVRRME1qVTBORGMxLkR5NW9fQS5mbTlpdkxCYUt2aTlaZE5JRW9KUGtSQ0Q1V0k='
+);
+
+discord_getImages(
+	'#data-porn-female',
+	'303327594793795588',
+	'409097515925766144',
 	'100',
 	'TlRNNE5qZzFPREF4TVRRME1qVTBORGMxLkR5NW9fQS5mbTlpdkxCYUt2aTlaZE5JRW9KUGtSQ0Q1V0k='
 );
